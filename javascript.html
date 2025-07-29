@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&family=Comic+Relief:wght@400;700&family=Indie+Flower&family=Pacifico&family=Quicksand:wght@300..700&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+        <meta charset="UTF-8">
+        <style>
+            h1{
+                text-align:center;
+                text-decoration: dashed 1px;
+                text-shadow: red 2px 2px;
+                font-family: "Bitcount Prop Single", system-ui;
+            }
+            table{
+                border:2px solid black;
+                width:100%;
+                border-bottom:solid 1px black;
+                table-layout: fixed;
+            }
+            th,td{
+                border:1px solid black;
+                text-align:center;
+                padding:20px;
+                font-family: "Comic Relief", system-ui;
+                
+            }
+            tr:nth-child(even) {
+          background-color: #f0f8ff;
+           }
+
+           tr:nth-child(odd) {
+           background-color: #e6f7ff;
+           }
+
+         table, th, td {
+         border: 1px solid #1e15cd;
+     }
+        </style>
+    </head>
+    <body>
+        <h1>CHEATSHEET ON DATATYPES IN JAVASCRIPT</h1>
+        <table border="1" >
+            <tr>
+            <th colspan="3" >PRIMITIVE DATA TYPES</th>
+            <th colspan="3">NON-PRIMITIVE DATATYPES</th>
+            </tr>
+            <tr >
+                <th >Data Type</th>
+                <th>Usage</th>
+                <th>Example</th>
+                <th >Data Type</th>
+                <th>Usage</th>
+                <th >Example</th>
+
+            </tr>
+            <tr>
+                <td>NUMBER</td>
+                <td>Number datatype is used to represent any integer or decimal value</td>
+                <td>let a=25;</td>
+                <td rowspan="2">OBJECT</td>
+                <td rowspan="2">An object is a collection of key-value pairs</td>
+                <td rowspan="2">let person={name:"xyz",age:10};</td>
+            </tr>
+            <tr>
+                <td>STRING</td>
+                <td>A sequence of characters used to represent text</td>
+                <td>let s='Pallavi';</td>
+            </tr>
+            <tr>
+                <td>BOOLEAN</td>
+                <td>True or False</td>
+                <td> let ispresent=True</td>
+                <td rowspan="2">FUNCTION</td>
+                <td rowspan="2">A block od reuseable code that performs a specific task</td>
+                <td rowspan="2">function iseven;</td>
+
+            </tr>
+            <tr>
+                <td>UNDEFINED</td>
+                <td>A varaiable is declared but no value has been assigned</td>
+                <td>let x;</td>
+            </tr>
+            <tr>
+                <td>NULL</td>
+                <td>A variable is declared but intentionally assigned empty value</td>
+                <td>let b=null;</td>
+                <td rowspan="2">ARRAY</td>
+                <td rowspan="2">List of items</td>
+                <td rowspan="2">let names=["MaheshBabu","Prabhas","Balayya"];</td>
+            </tr>
+            <tr>
+                <td>BIGINT</td>                
+                <td>Very large numbers</td>
+                <td>let big=123456789065;</td>
+            </tr>
+        </TABLE>
+
+
+    </body>
+</html>
